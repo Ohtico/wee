@@ -1,0 +1,1 @@
+- Visible: El selector de tipo clase visible se debe agregar de forma temporal 
