@@ -44,9 +44,17 @@ body{
 .screen.up{
     margin-top: -100vh;
 }
+<<<<<<< HEAD
 /* .screen.up{
     margin-top: -200vh;
 }*/
+=======
+
+/*.screen.up{
+    margin-top: -200vh;
+}*/
+
+>>>>>>> c6aa3cd187125ca861a6643c76ee7c7a7556ee5d
 h1{
     line-height: 1.4;
 }
@@ -116,6 +124,7 @@ h1{
     height: 100px;
     position: absolute;
     transform: translate(-50%, -50%) scale(1);
+<<<<<<< HEAD
     transition: transform 0.3s ease-in-out;
 }
 .insect.caught{
@@ -137,8 +146,18 @@ h1{
 }
 .insect.caught{
     transform: translate(-50% -50%) scale(0);
+=======
+    transition: transform 0.3s ease-in-out;
+}
+.insect.caught{
+    transform: translate(-50%, -50%) scale(0);
+>>>>>>> c6aa3cd187125ca861a6643c76ee7c7a7556ee5d
 }
 .insect img{
     width: 300px;
     height: 100px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c6aa3cd187125ca861a6643c76ee7c7a7556ee5d
