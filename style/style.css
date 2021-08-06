@@ -35,7 +35,7 @@ body{
     font-family: inherit;
     cursor: pointer;
 }
-.btn:hiover{
+.btn:hover{
     opacity: 0.9;
 }
 .btn:focus{
@@ -44,9 +44,11 @@ body{
 .screen.up{
     margin-top: -100vh;
 }
-.screen.up{
+
+/*.screen.up{
     margin-top: -200vh;
-}
+}*/
+
 h1{
     line-height: 1.4;
 }
@@ -57,7 +59,7 @@ h1{
     justify-content: center;
     padding: 0;
 }
-.insect-listt li{
+.insect-list li{
     margin: 10px;
 }
 .choose-insect-btn{
@@ -116,46 +118,13 @@ h1{
     height: 100px;
     position: absolute;
     transform: translate(-50%, -50%) scale(1);
-    transition: transform o.3s ease-in-out;
-}
-.insect.caught{
-    transform: translate(-50%, -50%) scale(0);
-}
-.insect img{
-    width: 300px;
-    height: 100px;
-}
-.insect{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    transform: translate(-50%, -50%) scale(1);
     transition: transform 0.3s ease-in-out;
 }
 .insect.caught{
-    transform: translate(-50% -50%) scale(0);
-}
-.insect img{
-    width: 300px;
-    height: 100px;
-}
-.insect{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    transform: translate(-50%, -50%) scale(1);
-    transition: transform o.3s ease-in-out;
-}
-.insect.caught{
     transform: translate(-50%, -50%) scale(0);
 }
 .insect img{
     width: 300px;
     height: 100px;
 }
+
