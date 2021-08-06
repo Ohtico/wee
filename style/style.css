@@ -44,8 +44,7 @@ body{
 .screen.up{
     margin-top: -100vh;
 }
-
-/*.screen.up{
+/* .screen.up{
     margin-top: -200vh;
 }*/
 
@@ -127,4 +126,20 @@ h1{
     width: 300px;
     height: 100px;
 }
-
+.insect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+.insect.caught{
+    transform: translate(-50% -50%) scale(0);
+}
+.insect img{
+    width: 300px;
+    height: 100px;
+}
